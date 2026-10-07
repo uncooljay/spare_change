@@ -1,9 +1,9 @@
 main()
 {
-	function = getfunction( "maps/mp/zm_tomb_ee_side", "check_for_change" );
+	routine = getfunction( "maps/mp/zm_tomb_ee_side", "check_for_change" );
 
-	if( isdefined( function ) )
-		replacefunc( function, common_scripts\utility::empty );
+	if( isdefined( routine ) ) // yucky
+		replacefunc( routine, common_scripts\utility::empty );
 }
 
 init()
